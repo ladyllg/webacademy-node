@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
         else {
             res.setHeader('Content-Type', 'text/plain;charset=utf-8');
             files.forEach(f => res.write(`${f}\n`));
-            res.end('Hello, World!\ncomputação');
+            res.end('Hello, World');
         }
     })
 
