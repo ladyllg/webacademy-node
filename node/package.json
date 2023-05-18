@@ -1,11 +1,11 @@
 {
   "name": "pw",
   "version": "1.0.0",
-  "main": "hello-world.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon hello-world.js",
-    "start:prod": "node hello-world.js"
+    "start": "npx nodemon index.js",
+    "start:prod": "node index.js"
   },
   "keywords": [],
   "author": "",
